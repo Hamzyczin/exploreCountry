@@ -38,6 +38,7 @@ body.dark-mode .navbar {
     margin-top: 20px;
 }
 
+
 #search {
     padding: 10px;
     border: none;
@@ -239,6 +240,7 @@ body.dark-mode .card {
 .neighbor-buttons button:hover {
     background-color: #88c089;
 }
+
 
 
 @media (max-width: 600px) {

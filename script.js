@@ -1,6 +1,6 @@
 let allCountries = [];
 
-// Fetch countries and display them
+
 async function fetchCountries() {
     try {
         const response = await fetch('https://restcountries.com/v3.1/all');
@@ -11,7 +11,7 @@ async function fetchCountries() {
     }
 }
 
-// Display countries in the grid
+
 function displayCountries(countries) {
     const container = document.getElementById('countries-container');
     container.innerHTML = '';
@@ -36,7 +36,8 @@ function displayCountries(countries) {
     });
 }
 
-// Function to filter countries
+
+
 function filterCountries() {
     const searchInput = document.getElementById('search').value.toLowerCase();
     const continentFilter = document.getElementById('continent-filter').value;
